@@ -16,6 +16,8 @@ Rails.application.routes.draw do
 
   post "/sessions", controller: "sessions", action: "create"
 
+  post "/movie_genres", controller: "movie_genres", action: "create"
+
 end
 
   # get "/query_actor", controller: "actors", action: "param_actor_method"
